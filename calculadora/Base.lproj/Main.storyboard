@@ -27,7 +27,22 @@
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a9F-Xo-JUO">
                                         <rect key="frame" x="0.0" y="0.0" width="768" height="251"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X5Q-xj-CrR">
+                                                <rect key="frame" x="0.0" y="0.0" width="768" height="251"/>
+                                                <color key="tintColor" red="0.99019607840000001" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="150"/>
+                                                <color key="textColor" red="0.99019607840000001" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
                                         <color key="backgroundColor" red="0.098039217289999994" green="0.098039217289999994" blue="0.098039217289999994" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="X5Q-xj-CrR" firstAttribute="top" secondItem="a9F-Xo-JUO" secondAttribute="top" id="dgD-75-vmS"/>
+                                            <constraint firstAttribute="trailing" secondItem="X5Q-xj-CrR" secondAttribute="trailing" id="hEM-3Y-h5f"/>
+                                            <constraint firstAttribute="bottom" secondItem="X5Q-xj-CrR" secondAttribute="bottom" id="mb4-A8-vLX"/>
+                                            <constraint firstItem="X5Q-xj-CrR" firstAttribute="leading" secondItem="a9F-Xo-JUO" secondAttribute="leading" id="qQ0-js-GMh"/>
+                                        </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PC4-1g-huQ">
                                         <rect key="frame" x="0.0" y="251" width="768" height="753"/>
