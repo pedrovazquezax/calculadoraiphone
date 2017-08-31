@@ -96,7 +96,7 @@
 				TargetAttributes = {
 					ADF01B5B1F588B5500CC005A = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = 4Y4836KVYY;
+						DevelopmentTeam = 4YDAEX93RK;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -261,7 +261,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 4Y4836KVYY;
+				DEVELOPMENT_TEAM = 4YDAEX93RK;
 				INFOPLIST_FILE = calculadora/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mx.appLab.calculadora;
@@ -274,7 +274,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 4Y4836KVYY;
+				DEVELOPMENT_TEAM = 4YDAEX93RK;
 				INFOPLIST_FILE = calculadora/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mx.appLab.calculadora;
@@ -302,6 +302,7 @@
 				ADF01B701F588B5500CC005A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
