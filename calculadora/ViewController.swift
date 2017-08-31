@@ -9,17 +9,33 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    var resultado = 0
+    var a = 0
+    var b = 0
+    @IBOutlet weak var lblresultado: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        
     }
 
+    @IBAction func btnNumero(_ sender: UIButton) {
+        
+        if sender.tag == 1{
+        a = 1
+        }else if sender.tag == 3{
+            b = 3
+        }else {
+        
+            lblresultado.text = "\(a+b)"
+        
+        }
+        
+    }
 
 }
 
